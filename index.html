@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head> 
+        <meta charset="utf-8">
+        <title>Pratica 1</title>
+        <style>
+          *{
+            border: 0px solid rgb(52, 52, 85);
+          }
+            li{
+                margin-top: 10%px;/*espaçamentoe xterno*/
+                padding: 5px;/*espaçamento interno*/
+                background-color: rgb(112, 197, 26);
+            }
+          div{
+              background-color: #c51818;
+              padding: 0px;
+          }
+          span{
+              font-size: 10; 
+              color: hsl(0, 0%, 100%);
+              margin-right: 0%;
+             
+          
+            }
+          a{
+              text-decoration: none;
+              font-size: 17px;
+              color: rgb(73, 161, 238);
+          }
+      </style>
+      </head>
+        <body>
+          <!--hoje vamos aprenderuj-->
+<!-- inserindo link -->
+<h1>unitel</h1>
+<h2>conheça os nossos produtos</h2>
+<a href="https://youtube.com/" target="_blank"> ir para o site </a>
+
+<div>
+  <span>
+      LOGO
+  </span>
+  <a href="#">Item</a>   
+  <a href="#">Item</a>
+  <a href="#">Item</a>
+  <a href="#">Item</a>         
+</div>
+
+<img src="imagem.PNG" width="995" height="126" alt="planets" usemap="#planetmap">
+<map name="planetmap">
+  <area shape="rect" coords="0,0,60,100" href="sun.html" alt="sun">
+  <area shape="circle" coords="90,58,3" href="mercur.html" alt="Mercur">
+  <area shape="circle" coords="124,58,8" href="venus.html" alt="Venus">
+</map>
+<ul>
+  <li>Item</li>
+  <li>Item</li>
+  <li>Item</li>
+  <li>Item</li>
+</ul> 
+
+<!-- tags de titulos e subtitulos -->
+<h1> Este é um título </h1>
+<h2> Este é um subtitulo ou nivel 2</h2>
+<h3> Este é um subtitulo ou nivel 3</h3>
+<h4> Este é um subtitulo ou nivel 4</h4>
+<h5> Este é um subtitulo ou nivel 5</h5>
+<h6> Este é um subtitulo ou nivel 6</h>
+ 
+    <!-- tags para paragrafo -->
+<p> Aprendendo html, css, js desenvolvimento web</p>
+<script>/*aprendendo sobre variaveis
+/*
+inteiros-int
+real-float-double
+cadeia de caracteres-string-char
+boleano-boolean:verdadeiro ou falso, true or false, 0 ou 1
+
+int senha=1234; 
+*/
+var senha="12345";
+  alert(senha);
+
+</script>
+         </body>
+   
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--carrosel-->
+ <div id="demo" class="carrosselslide" data-bs-ride="carrosel">
+
+  <!--introduzir dots-->
+  <div class="carrossel-indicator">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active"></button>
+  </div> 
+
+       <!--slideshow-->
+       <div class="carrossel-inner">
+       <div class="carrossel-item active">
+           <img src="L.jpg" alt="consultorios" class="d-block w-100">
+       </div>
+
+       <div class="carrossel-item active">
+          <img src="F.jpg" alt="consultorios" class="d-block w-100">
+      </div>
+      
+      <div class="carrossel-item active">
+          <img src="B.jpg" alt="consultorios" class="d-block w-100">
+      </div>
+
+      <!--left and right conrols icons-->
+      <button class="carrossel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carrossel-control-prev-icon"></span>
+      </button>
+          <button class="carrossel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carrossel-control-next-icon"></span>
+          </button>
